@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin-right: 0;
+}
+.header {
+    display: flex;
+    gap: 10%;
+
+}
+.header .logo{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+.header nav{
+    
+  
+
+
+}
+.header nav a{
+    text-decoration: none;
+    color: gray;
+    margin-left: 8px;
+    padding: 10px;
+}
+.header nav a:hover{
+    border-bottom:2px solid red ;
+
+}
+.login{
+    display: flex;
+    gap: 10px;
+
+}
+.login a{
+    text-decoration: none;
+    color: black;
+} 
+
+/* Style pour le conteneur */
+.image-container1,.image-container2,.image-container3,.image-container4,.image-container5 {
+    position: relative;
+    width: 300px; /* Ajustez la largeur au besoin */
+}
+
+/* Style de l'image */
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+/* Style pour le texte */
+.image-text {
+    position: absolute;
+    top: 20px; /* Ajustez la position verticale au besoin */
+    left: 20px; /* Ajustez la position horizontale au besoin */
+    color: white; /* Couleur du texte */
+    font-size: 18px; /* Taille de la police */
+     /* Arrière-plan semi-transparent */
+    padding: 10px; /* Espace autour du texte */
+}
+.image-text h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.image-text h1,.image-text p{
+    color: black;
+}
+.image-text a{
+    text-decoration: none;
+    color: black;
+    font-size:20px;
+    font-weight: bold;
+    border-bottom: 2px solid orange;
+
+}
+.image-text a:hover{
+    border-bottom: 1px solid orange;
+}
+
+
+.section {
+    display: flex;
+    gap: 10px;
+   
+}
+.section2{
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    grid-gap:25px ;
+
+}
+.section3 .item a:hover{
+    background-color:red;
+ 
+}
+.image-container1 img,.image-container2 img,.image-container3 img,.image-container4 img,.image-container5 img{
+    width: 100%;
+  
+    
+    
+}
+.image-container1{
+    width: 800%;
+    height: 10px;
+
+}
+.image-container2 ,.image-container3 ,.image-container4 ,.image-container5 {
+    width: 100%;
+}
+.navbar .menu a{
+    text-decoration: none;
+    color: gray;
+    margin-left: 20px;
+    padding: 10px;
+
+
+}
+.navbar .menu a:hover{
+    border-bottom: 1px solid orange;
+
+}
+.nav3 a{
+    border-bottom: 2px solid orange;
+
+}
+.navbar .h1:hover{
+    border-bottom: 1px solid orange;
+
+}
+.content{
+    display: grid;
+   grid-template-columns: repeat(4,250px);
+   grid-gap: 13px;
+}
+.content img{
+    width: 50%;
+
+   
+}
+.content .image-texts H3{
+    font-size: 13px;
+
+}
+
+section .nav3 a{
+
+    text-decoration: none;
+    color: black;
+}
+section .nav3 a:hover{
+    border-bottom: 1px solid orange;
+   
+    
+
+}
+.container .image-texts p{
+    margin-left: 15px;
+
+}
+.section3 img{
+    width: 210px;
+
+}
+
+footer .copyrigth{
+    border-top: 1px solid gray;
+    padding: 20px;
+}
+.text2 a ,.text3 a{
+    text-decoration: none;
+    opacity: 10px;
+    color: gray;
+
+}
+.icone i{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 20px ;
+}
+.text4 button{
+    background-color: red;
+    border-radius:20px ;
+    position: absolute;
+    left:77%;
+    padding: 5px;
+}
+.text4 input{
+    padding: 5px;
+    border-radius: 20px;
+}
+
+  
